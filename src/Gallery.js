@@ -15,7 +15,7 @@ export default class Gallery extends PureComponent {
         images: PropTypes.arrayOf(PropTypes.object),
         imageLoadingIndicatorProps: PropTypes.shape(ActivityIndicator.propTypes),
         initialPage: PropTypes.number,
-        scrollViewStyle: ViewPropTypes ? ViewPropTypes.style : View.propTypes.style,
+        scrollViewStyle: ViewPropTypes ? ViewPropTypes?.style : View.propTypes?.style,
         pageMargin: PropTypes.number,
         onPageSelected: PropTypes.func,
         onPageScrollStateChanged: PropTypes.func,
